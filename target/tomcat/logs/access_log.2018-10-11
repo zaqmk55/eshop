@@ -1,0 +1,17 @@
+0:0:0:0:0:0:0:1 - - [11/Oct/2018:12:41:18 +0800] "GET / HTTP/1.1" 200 14149 http-bio-8888-exec-1 2620
+0:0:0:0:0:0:0:1 - - [11/Oct/2018:12:41:20 +0800] "GET /login.jsp HTTP/1.1" 200 6730 http-bio-8888-exec-2 197
+0:0:0:0:0:0:0:1 - - [11/Oct/2018:12:41:24 +0800] "GET /user?method=login&username=ccc&password=ccc&submit=%B5%C7%C2%BC HTTP/1.1" 302 - http-bio-8888-exec-3 10
+0:0:0:0:0:0:0:1 - - [11/Oct/2018:12:41:24 +0800] "GET /index.jsp HTTP/1.1" 200 14155 http-bio-8888-exec-4 12
+0:0:0:0:0:0:0:1 - - [11/Oct/2018:12:41:25 +0800] "GET /user?method=logout HTTP/1.1" 302 - http-bio-8888-exec-5 2
+0:0:0:0:0:0:0:1 - - [11/Oct/2018:12:41:25 +0800] "GET /index.jsp HTTP/1.1" 200 14149 http-bio-8888-exec-6 4
+0:0:0:0:0:0:0:1 - - [11/Oct/2018:12:46:11 +0800] "GET / HTTP/1.1" 200 14149 http-bio-8888-exec-1 786
+0:0:0:0:0:0:0:1 - - [11/Oct/2018:12:46:13 +0800] "GET /login.jsp HTTP/1.1" 200 6730 http-bio-8888-exec-2 13
+0:0:0:0:0:0:0:1 - - [11/Oct/2018:12:46:18 +0800] "GET /user?method=login&username=ccc&password=ccc&autologin=1&submit=%B5%C7%C2%BC HTTP/1.1" 302 - http-bio-8888-exec-3 10
+0:0:0:0:0:0:0:1 - - [11/Oct/2018:12:46:18 +0800] "GET /index.jsp HTTP/1.1" 200 14155 http-bio-8888-exec-4 11
+0:0:0:0:0:0:0:1 - - [11/Oct/2018:12:46:44 +0800] "GET /user?method=logout HTTP/1.1" 302 - http-bio-8888-exec-5 3
+0:0:0:0:0:0:0:1 - - [11/Oct/2018:12:46:44 +0800] "GET /index.jsp HTTP/1.1" 200 14149 http-bio-8888-exec-6 11
+0:0:0:0:0:0:0:1 - - [11/Oct/2018:12:49:28 +0800] "GET /login.jsp HTTP/1.1" 200 6730 http-bio-8888-exec-8 8
+0:0:0:0:0:0:0:1 - - [11/Oct/2018:12:49:41 +0800] "GET /user?method=login&username=ccc&password=ccc&submit=%B5%C7%C2%BC HTTP/1.1" 302 - http-bio-8888-exec-9 4
+0:0:0:0:0:0:0:1 - - [11/Oct/2018:12:49:41 +0800] "GET /index.jsp HTTP/1.1" 200 14155 http-bio-8888-exec-10 4
+0:0:0:0:0:0:0:1 - - [11/Oct/2018:12:49:44 +0800] "GET /user?method=logout HTTP/1.1" 302 - http-bio-8888-exec-10 2
+0:0:0:0:0:0:0:1 - - [11/Oct/2018:12:49:44 +0800] "GET /index.jsp HTTP/1.1" 200 14149 http-bio-8888-exec-10 3
